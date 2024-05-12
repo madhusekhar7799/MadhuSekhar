@@ -1,0 +1,36 @@
+/* footr   */
+
+.footrcontainer{
+    padding: 5%;
+    
+     background-color: black;
+  }
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+justify-content: space-between;
+
+}
+
+.heading4{
+    text-align: start;
+}
+
+.heading5,.heading4, .para,.heading6{
+    color: white;
+
+}
+
+.simbol{
+background-color: white;
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+

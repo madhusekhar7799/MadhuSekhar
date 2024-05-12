@@ -1,0 +1,204 @@
+@media (min-width: 768px) {
+  .dogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 20px;
+
+}
+}
+ 
+.spl{
+    display: none;
+}
+ 
+  .icon1, .icon2{
+    display: none;
+}
+ 
+ display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr  ;
+    gap: 20px;
+ 
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 20px;
+ 
+  grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 20px;
+ 
+.space{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+ 
+<div className="
+ 
+className="simbol"
+ 
+ width: 90%;
+ 
+
+h5,h4, p{
+    color: white;
+
+}
+ 
+text-align: start;
+ 
+Footer
+ 
+ display: flex;
+    flex-wrap: wrap;
+ 
+'info
+ 
+data
+ 
+Products
+ 
+   <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+ 
+Sidebar
+ 
+style={""}
+ 
+hr
+ 
+ margin-left: 5%;
+  margin-right: 5%;
+ 
+hr
+ 
+hr{
+  width: 90%;
+
+}
+
+ 
+hr{
+  border-top: 1px solid red;
+
+}
+ 
+hr{
+  height: 1px;
+  color: black;
+  visibility: visible;
+}
+ 
+          reprehenderit deserunt eum, voluptas possimus consequatur sed
+              
+ 
+aspernatur totam aliquid pariatur voluptatibus. Rerum, debitis!
+              Nobis
+ 
+underline
+ 
+text-decoration: none;
+ 
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+ 
+width: 300px;
+ 
+align-items: center;
+    width: 100vw;
+ 
+ display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+ 
+.icons
+ 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import { Navbar, Nav } from 'react-bootstrap'; 
+
+const Navbar = () => {
+  return (
+    <div>
+    <Navbar bg="light" expand="lg"> {/* Set the background color and make the navbar expandable */}
+      <Navbar.Brand href="#home">Navbar</Navbar.Brand> {/* Navbar Brand */}
+      <Navbar.Toggle aria-controls="basic-navbar-nav" /> {/* Toggle button for mobile view */}
+      <Navbar.Collapse id="basic-navbar-nav"> {/* Navbar collapse container */}
+        <Nav className="mr-auto"> {/* Align nav links to the left */}
+          <Nav.Link href="#home">Home</Nav.Link> {/* Nav links */}
+          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
+        </Nav>
+        {/* You can add additional elements to the right side of the navbar here */}
+      </Navbar.Collapse>
+    </Navbar>
+    </div>
+  );
+};
+
+export default Navbar;
+
+ 
+<Navbar/>
+ 
+className="App"
+ 
+Dashboard
+ 
